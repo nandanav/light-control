@@ -1,9 +1,9 @@
 # See https://www.dartlang.org/guides/libraries/private-files
 
 # Files and directories created by pub
-.dart_tool/
-.packages
-build/
+app/.dart_tool/
+app/.packages
+app/build/
 # If you're building an application, you may want to check-in your pubspec.lock
 pubspec.lock
 
@@ -45,45 +45,45 @@ doc/api/
 .vscode/*
 
 # Flutter repo-specific
-/bin/cache/
-/bin/internal/bootstrap.bat
-/bin/internal/bootstrap.sh
-/bin/mingit/
-/dev/benchmarks/mega_gallery/
-/dev/bots/.recipe_deps
-/dev/bots/android_tools/
-/dev/devicelab/ABresults*.json
-/dev/docs/doc/
-/dev/docs/flutter.docs.zip
-/dev/docs/lib/
-/dev/docs/pubspec.yaml
-/dev/integration_tests/**/xcuserdata
-/dev/integration_tests/**/Pods
-/packages/flutter/coverage/
-version
-analysis_benchmark.json
+app/bin/cache/
+app/bin/internal/bootstrap.bat
+app/bin/internal/bootstrap.sh
+app/bin/mingit/
+app/dev/benchmarks/mega_gallery/
+app/dev/bots/.recipe_deps
+app/dev/bots/android_tools/
+app/dev/devicelab/ABresults*.json
+app/dev/docs/doc/
+app/dev/docs/flutter.docs.zip
+app/dev/docs/lib/
+app/dev/docs/pubspec.yaml
+app/dev/integration_tests/**/xcuserdata
+app/dev/integration_tests/**/Pods
+app/packages/flutter/coverage/
+app/version
+app/analysis_benchmark.json
 
 # packages file containing multi-root paths
-.packages.generated
+app/.packages.generated
 
 # Flutter/Dart/Pub related
 **/doc/api/
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
 **/generated_plugin_registrant.dart
-.packages
-.pub-preload-cache/
-.pub/
-build/
-flutter_*.png
-linked_*.ds
-unlinked.ds
-unlinked_spec.ds
+app/.packages
+app/.pub-preload-cache/
+app/.pub/
+app/build/
+app/flutter_*.png
+app/linked_*.ds
+app/unlinked.ds
+app/unlinked_spec.ds
 
 # Android related
 **/android/**/gradle-wrapper.jar
-.gradle/
+app/.gradle/
 **/android/captures/
 **/android/gradlew
 **/android/gradlew.bat
@@ -140,7 +140,7 @@ unlinked_spec.ds
 **/linux/flutter/generated_plugins.cmake
 
 # Coverage
-coverage/
+app/coverage/
 
 # Symbols
 app.*.symbols
